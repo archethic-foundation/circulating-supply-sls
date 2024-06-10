@@ -1,0 +1,29 @@
+parameters: {}
+environment: {}
+packages:
+  - name: mainnet
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: totalsupply
+        binary: false
+        main: ""
+        runtime: nodejs:default
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+      - name: circulatingsupply
+        binary: false
+        main: ""
+        runtime: nodejs:default
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
